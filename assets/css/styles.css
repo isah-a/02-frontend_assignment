@@ -1,0 +1,240 @@
+/* DESKTOP VIEW */
+@media (min-width:481px){
+    
+    .left-note1 {
+        color:#737373;
+        font-size: 16px;
+    }
+
+    .left-note2{
+        display: none;
+    }
+
+    h1 {
+        color:#000B0A;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    body {
+        background-color: #F7FDFC;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+        padding: 4% 10%;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .left {
+        justify-content: center;
+        align-content: center;
+        padding: 10% 5%;
+    }
+
+    .left-lower1{
+        width: 70%;
+        padding: 0 1%;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        padding: 2% 5%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        font-weight: 600;
+        color: #011C34;
+    }
+
+    form > div {
+        display: flex;
+        gap: 20px;
+        margin: 0 0 5% 0;
+    }
+
+    .al {
+        display: block;
+    }
+
+    .input-class {
+        padding: 10px 10px;
+        margin: 2% 0 0 0;
+    }
+
+    .lower-input {
+        padding: 10px 10px;
+        margin: 2% 0 0 0;
+        width: 100%;
+    }
+
+
+    .field-width{
+        width: 100%;
+    }
+
+    .al {
+        width: 100%;
+    }
+
+    .btn{
+        background-color: #2EC4B6;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    a {
+        text-decoration-color: #2EC4B6;
+        color: #2EC4B6;
+    }
+    div > span {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terms {
+        padding: 0 3%;
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .p-eye {
+        width: 16px;
+        height: 14px;
+
+    }
+
+    .p-region {
+        display: flex;
+        align-items: center;
+        /* height: 25px; */
+        /* padding: 5px; */
+        border: 1px solid;
+        margin: 2% 0 0 0;
+        padding: 0 2%;
+
+
+    }
+
+    .p-input {
+        border: none;
+        margin: 0;
+    }
+
+}
+/************************ MEDIA QUERY *************************/
+
+@media (max-width: 480px ) {
+    body {
+        /* color: blue; */
+        background-color: #F7FDFC;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1 {
+        color:#000B0A;
+        font-family: 'Ubuntu', sans-serif;
+    }
+            
+    .left-lower2 {
+        padding: 0 3%;
+    }
+
+    .left-note1 {
+        text-align: justify;
+        display: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .left-note2 {
+        color:#737373;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        padding: 5%;
+    }
+
+    form > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form > div > span {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .input-class {
+        padding: 10px 10px;
+        margin: 2% 0 0 0;
+    }
+
+    .lower-input {
+        padding: 10px 10px;
+        margin: 2% 0 0 0;
+        width: 100%;
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .btn{
+        background-color: #2EC4B6;
+        border: none;
+        color: #FFFFFF;
+        margin: 10% 0 7% 0;
+    }
+
+    a {
+        text-decoration-color: #2EC4B6;
+        color: #2EC4B6;
+    }
+
+    .terms {
+        padding: 0 5%;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .p-eye {
+        width: 16px;
+        height: 14px;
+
+    }
+
+    .p-region {
+        display: flex;
+        align-items: center;
+        /* height: 25px; */
+        /* padding: 5px; */
+        border: 1px solid;
+        margin: 2% 0 0 0;
+        padding: 0 2%;
+
+
+    }
+
+    .p-input {
+        border: none;
+        margin: 0;
+    }
+
+        }
